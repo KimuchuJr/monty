@@ -18,5 +18,7 @@ void freeStack(stack_t **stack);
 void processFile(const char *file_path);
 void parseInstruction(char *line, unsigned int line_number, stack_t **stack);
 void exeinst(char *opcode, unsigned int line_number, stack_t **stack);
+void pint(stack_t **stack, unsigned int line_number);
+
 
 #endif /* MONTY_INTERPRETER_H */
